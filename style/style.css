@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(https://i.ibb.co/3MNgnd6/sistema-solar.jpg);   
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Poppins;
+}
+.item{
+    background-color: white;
+    color: rgb(154, 167, 162);
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 445px) {
+   i{
+       margin: 0;
+   }
+  }
+
+  table{
+      text-align: center;
+      width: 100%;
+  }
